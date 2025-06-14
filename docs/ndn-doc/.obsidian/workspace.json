@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6658b535441a9f32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Вітаємо.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Вітаємо"
-            }
-          },
-          {
             "id": "b71007f5472b10e5",
             "type": "leaf",
             "state": {
@@ -35,8 +21,7 @@
               "title": "Markdown Cheatsheet"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Зворотні посилання для Markdown Cheatsheet"
+              "title": "Зворотні посилання"
             }
           },
           {
@@ -128,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Вихідні посилання з Markdown Cheatsheet"
+              "title": "Вихідні посилання"
             }
           },
           {
@@ -157,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown Cheatsheet.md",
+                "file": "Вітаємо.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Вміст Markdown Cheatsheet"
+              "title": "Вміст Вітаємо"
             }
           }
         ]
@@ -183,7 +166,7 @@
       "command-palette:Відкрити меню команд": false
     }
   },
-  "active": "b71007f5472b10e5",
+  "active": "34fbde2936605909",
   "lastOpenFiles": [
     "Markdown Cheatsheet.md",
     "Вітаємо.md"
