@@ -13,20 +13,29 @@
 Для початку вам треба встановити [Python](https://www.python.org), якщо він не встановлений.
   * якщо у вас linux (Fedora, Debian, Ubuntu, Mint and etc.), то Python вже є у ваший системі. 
   * рекомендується зробити окреме віртуальне середовище [(virtual environment)](https://docs.python.org/3/library/venv.html) Python 
+
 Встановити генератор статичних сайтів MkDocs [як встановити](https://www.mkdocs.org/user-guide/installation/)
+
 Встановити тему [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/), яка використовується в проекті.
+
 Зробить клон проекта на ваш ком'ютер.
+
 Все, у вас є копія проєкта - насолоджуйтесь, користуйтеся, творіть.
 
 ## Основні команди MkDocs:
+
 Запуск: Usage: mkdocs [OPTIONS] COMMAND [ARGS]...
 
-  -V, --version         показати версії та вийти.
-  -h, --help            вивід допомоги та вийти.
+-V, --version         показати версії та вийти. 
+
+-h, --help            вивід допомоги та вийти.
 
 Commands:
-  build      згенерувати у папці site проекту готовий сайт.
-  new        створити нову структуру для проекту MkDocs.
-  serve      запуск сервера на локальному комп'ютері, зупинити CRTL+C, локальна адреса http://localhost:8000/.
+
+build      згенерувати у папці site проекту готовий сайт.
+
+new        створити нову структуру для проекту MkDocs.
+
+serve      запуск сервера на локальному комп'ютері, зупинити CRTL+C, локальна адреса http://localhost:8000/.
 
 Повність про роботу генератора на сайті проекту [MkDocs](https://www.mkdocs.org) та сайті теми [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
