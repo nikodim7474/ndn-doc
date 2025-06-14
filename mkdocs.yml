@@ -3,6 +3,28 @@ site_name: My Documentation
 nav:
 - Головна:
     - index.md
+    - Написання документації:
+      - writedoc.md
+    - Git:
+      - git.md
+    - Linux:
+      - linux.md
+    - Корисні посилання:
+      - url.md
+- Написання документації:
+    - writedoc.md
+    - MkDocs:
+      - mkdocs.md
+    - Sphinx:
+      - sphinx.md
+    - Markdown Basic:
+      - Markdown_Cheatsheet.md
+- Git:
+    - git.md
+    - Робота з проєктами:
+      - workgit.md
+- Linux:
+    - linux.md
 - Корисні посилання:
     - url.md
 theme:
