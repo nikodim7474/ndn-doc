@@ -30,10 +30,10 @@
 
 **Commands:**
 
-*mkdocs build* - згенерувати у папці site проекту готовий сайт.
-
 *mkdocs new* - створити нову структуру для проекту MkDocs.
 
 *mkdocs serve* - запуск сервера на локальному комп'ютері, зупинити CRTL+C, локальна адреса http://localhost:8000/.
+
+*mkdocs build* - згенерувати у папці site проекту готовий сайт.
 
 Повність про роботу генератора на сайті проекту [MkDocs](https://www.mkdocs.org) та сайті теми [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
