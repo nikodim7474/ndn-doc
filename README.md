@@ -24,18 +24,16 @@
 
 ## Основні команди MkDocs:
 
-Запуск: Usage: mkdocs [OPTIONS] COMMAND [ARGS]...
+*mkdocs -V, --version* - показати версії та вийти. 
 
--V, --version         показати версії та вийти. 
+*mkdocs -h, --help*  - вивід допомоги та вийти.
 
--h, --help            вивід допомоги та вийти.
+**Commands:**
 
-Commands:
+*mkdocs build* - згенерувати у папці site проекту готовий сайт.
 
-build      згенерувати у папці site проекту готовий сайт.
+*mkdocs new* - створити нову структуру для проекту MkDocs.
 
-new        створити нову структуру для проекту MkDocs.
-
-serve      запуск сервера на локальному комп'ютері, зупинити CRTL+C, локальна адреса http://localhost:8000/.
+*mkdocs serve* - запуск сервера на локальному комп'ютері, зупинити CRTL+C, локальна адреса http://localhost:8000/.
 
 Повність про роботу генератора на сайті проекту [MkDocs](https://www.mkdocs.org) та сайті теми [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
