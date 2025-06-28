@@ -1,32 +1,19 @@
 site_name: My Documentation
 #site_url: https://mydomain.org/mysite
+
 nav:
-- Головна:
-    - index.md
-    - Написання документації:
-      - writedoc.md
-    - Git:
-      - git.md
-    - Linux:
-      - linux.md
-    - Корисні посилання:
-      - url.md
+- Головна: index.md
 - Написання документації:
-    - writedoc.md
-    - MkDocs:
-      - mkdocs.md
-    - Sphinx:
-      - sphinx.md
-    - Markdown Basic:
-      - Markdown_Cheatsheet.md
+  - Markdown Basic: Markdown_Cheatsheet.md
+  - MkDocs: mkdocs.md
+  - Sphinx: sphinx.md
 - Git:
-    - git.md
-    - Робота з проєктами:
-      - workgit.md
-- Linux:
-    - linux.md
-- Корисні посилання:
-    - url.md
+  - Основні поняття GIT: git.md
+  - Термінологія GIT: terminology.md
+#- Linux: linux.md
+- Корисні посилання: url.md
+
+
 theme:
   name: material
   language: uk
