@@ -7,11 +7,27 @@ nav:
   - Markdown Basic: Markdown_Cheatsheet.md
   - MkDocs: mkdocs.md
   - Sphinx: sphinx.md
-- Git:
-  - Основні поняття GIT: git.md
-  - Термінологія GIT: terminology.md
-#- Linux: linux.md
-- Корисні посилання: url.md
+- GIT:
+  - Корисні посилання: GIT/git_links.md
+  - Основні поняття GIT: GIT/git.md
+  - Термінологія GIT: GIT/terminology.md
+- PYTHON: 
+  - Корисні посилання: PYTHON/python_links.md
+- LINUX:
+  - Корисні посилання: LINUX/linux_links.md
+  - ЗАГАЛЬНЕ: LINUX/linux.md
+- Корисні посилання:
+  - ЗАГАЛЬНЕ: LINKS/links_basic.md
+  - ENGLISH: LINKS/links_english.md
+  - ІНФОРМАТИКА: LINKS/links_cs.md
+  - ІНСТРУМЕНТИ : LINKS/links_tools.md
+  - PYTHON: LINKS/links_python.md
+  - ВАЖЛИВІ БАЗОВІ ТЕМИ: LINKS/links_important_subjects.md
+  - БАЗИ ДАНИХ: LINKS/links_databases.md
+  - GIT: LINKS/links_git.md
+  - LINUX: LINKS/links_linux.md
+  - РОБОЧИЙ ПРОЦЕС: LINKS/links_workflow.md
+  - ДРОНИ: LINKS/links_drones.md
 
 
 theme:
