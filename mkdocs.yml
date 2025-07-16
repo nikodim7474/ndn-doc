@@ -11,8 +11,9 @@ nav:
   - Корисні посилання: PYTHON/python_links.md
 - GIT:
   - Корисні посилання: GIT/git_links.md
-  - Основні поняття GIT: GIT/git.md
+  - Основні поняття GIT: GIT/git_definitions.md
   - Термінологія GIT: GIT/terminology.md
+  - Основні команди GIT: GIT/git_basic_commands.md
 - LINUX:
   - Корисні посилання: LINUX/linux_links.md
   - ЗАГАЛЬНЕ: LINUX/linux.md
