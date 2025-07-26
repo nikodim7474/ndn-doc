@@ -234,7 +234,69 @@ d.speak()  # Bark!
 
 #### C3 Linearization
 <img src='../RES/classes_2.png'></img>
+```python
+class H:
+    pass
+
+class D(H):
+    pass
+class E(H):
+    pass
+class F(H):
+    pass
+class G(H):
+    pass
+class B(D, E):
+    pass
+class C(F, G):
+    pass
+class A(B, C):
+    pass
+
+def show_mro(cls_name):
+    return [c.__name__ for c in cls_name.mro()]
+
+print(*show_mro(A), sep = ' -> ')
+```
+```python
+# ВИВОДИТЬ
+A -> B -> D -> E -> C -> F -> G -> H -> object
+```
+
+
 <img src='../RES/classes_1.png'></img>
+```python
+class O:
+    pass
+class C(O):
+    pass
+class A(O):
+    pass
+class B(O):
+    pass
+class D(O):
+    pass
+class E(O):
+    pass
+class K1(C, A, B):
+    pass
+class K2(A, D):
+    pass
+class K3(B, D, E):
+    pass
+class Z(K1, K2, K3):
+    pass
+def show_mro(cls_name):
+    return [c.__name__ for c in cls_name.mro()]
+
+print(*show_mro(Z), sep = ' -> ')
+```
+```python
+# ВИВОДИТЬ
+Z -> K1 -> C -> K2 -> A -> K3 -> B -> D -> E -> O -> object
+```
+
+
 
 ## **Агрегація і композиція**
 

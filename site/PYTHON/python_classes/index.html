@@ -1744,8 +1744,62 @@ d.speak()  # Bark!
 </code></pre>
 <h3 id="mro"><strong>MRO</strong></h3>
 <h4 id="c3-linearization">C3 Linearization</h4>
-<p><img src='../RES/classes_2.png'></img>
-<img src='../RES/classes_1.png'></img></p>
+<p><img src='../RES/classes_2.png'></img></p>
+<pre><code class="language-python">class H:
+    pass
+
+class D(H):
+    pass
+class E(H):
+    pass
+class F(H):
+    pass
+class G(H):
+    pass
+class B(D, E):
+    pass
+class C(F, G):
+    pass
+class A(B, C):
+    pass
+
+def show_mro(cls_name):
+    return [c.__name__ for c in cls_name.mro()]
+
+print(*show_mro(A), sep = ' -&gt; ')
+</code></pre>
+<pre><code class="language-python"># ВИВОДИТЬ
+A -&gt; B -&gt; D -&gt; E -&gt; C -&gt; F -&gt; G -&gt; H -&gt; object
+</code></pre>
+<p><img src='../RES/classes_1.png'></img></p>
+<pre><code class="language-python">class O:
+    pass
+class C(O):
+    pass
+class A(O):
+    pass
+class B(O):
+    pass
+class D(O):
+    pass
+class E(O):
+    pass
+class K1(C, A, B):
+    pass
+class K2(A, D):
+    pass
+class K3(B, D, E):
+    pass
+class Z(K1, K2, K3):
+    pass
+def show_mro(cls_name):
+    return [c.__name__ for c in cls_name.mro()]
+
+print(*show_mro(Z), sep = ' -&gt; ')
+</code></pre>
+<pre><code class="language-python"># ВИВОДИТЬ
+Z -&gt; K1 -&gt; C -&gt; K2 -&gt; A -&gt; K3 -&gt; B -&gt; D -&gt; E -&gt; O -&gt; object
+</code></pre>
 <h2 id="_9"><strong>Агрегація і композиція</strong></h2>
 
 
