@@ -9,6 +9,9 @@ nav:
   - Sphinx: sphinx.md
 - PYTHON: 
   - Корисні посилання: PYTHON/python_links.md
+  - Простір імен, область видимості: PYTHON/python_namespace_scope.md
+  - Класи: PYTHON/python_classes.md
+
 - GIT:
   - Корисні посилання: GIT/git_links.md
   - Основні поняття GIT: GIT/git_definitions.md
