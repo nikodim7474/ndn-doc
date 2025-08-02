@@ -9,8 +9,11 @@ nav:
   - Sphinx: sphinx.md
 - PYTHON: 
   - Корисні посилання: PYTHON/python_links.md
+  - Оператори: PYTHON/python_operators.md
+  - Exceptions: PYTHON/python_exceptions.md
   - Простір імен, область видимості: PYTHON/python_namespace_scope.md
   - Класи: PYTHON/python_classes.md
+  - PYHON -> requests: PYTHON/python_requests.md
 
 - GIT:
   - Корисні посилання: GIT/git_links.md
